@@ -4,9 +4,9 @@ from pathlib import Path
 
 # Define input and output paths
 input_path = Path(
-    "C:/Users/Gustavo/Desktop/LEARNING/GitHub/Background_remove/antes.jpg")
+    "before.jpg")
 output_path = Path(
-    "C:/Users/Gustavo/Desktop/LEARNING/GitHub/Background_remove/depois.png")
+    "after.png")
 
 # Check if the input file exists
 if not input_path.exists():
